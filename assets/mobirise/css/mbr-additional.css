@@ -6,11 +6,11 @@ body {
 }
 .display-1 {
   font-family: 'Figtree', sans-serif;
-  font-size: 4.2rem;
+  font-size: 2.8rem;
   line-height: 0.85;
 }
 .display-1 > .mbr-iconfont {
-  font-size: 5.25rem;
+  font-size: 3.5rem;
 }
 .display-2 {
   font-family: 'Figtree', sans-serif;
@@ -51,9 +51,9 @@ body {
 /* 0.65 - min scale variable, may vary */
 @media (max-width: 768px) {
   .display-1 {
-    font-size: 1.68rem !important;
-    font-size: calc( 3.24rem + (4.2 - 3.24) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 0.55 * (3.24rem + (4.2 - 3.24) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 1.12rem !important;
+    font-size: calc( 2.26rem + (2.8 - 2.26) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 0.55 * (2.26rem + (2.8 - 2.26) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-2 {
     font-size: 2.08rem;
@@ -715,7 +715,7 @@ a {
 }
 @media (max-width: 1400px) {
   .cid-tOHbFxbl7v .display-1 {
-    font-size: 3.36rem;
+    font-size: 2.24rem;
   }
 }
 @media (max-width: 575px) {
@@ -830,9 +830,11 @@ a {
 .cid-tOTIWnhPxb .mbr-text,
 .cid-tOTIWnhPxb .mbr-section-btn {
   color: #ffffff;
+  text-align: center;
 }
 .cid-tOTIWnhPxb .item-subtitle {
-  color: #ffffff;
+  color: #353535;
+  text-align: center;
 }
 .cid-tOPBq5g5Kj {
   padding-top: 150px;
@@ -1668,6 +1670,7 @@ a {
 .cid-tONkCUMV91 .card-title,
 .cid-tONkCUMV91 .mbr-iconfont {
   color: #000000;
+  text-align: center;
 }
 .cid-tgVY0UX8Ak {
   padding-top: 4rem;
